@@ -27,10 +27,16 @@ export default (props) => {
 
   return (
     <div className={clsx('field', className)}>
-      <label className="field__label" htmlFor={id}>
+      <label
+        className="field__label"
+        htmlFor={id}
+      >
         {label}
         {isRequired && (
-          <span className="field__required-star" aria-hidden="true">
+          <span
+            className="field__required-star"
+            aria-hidden="true"
+          >
             &nbsp;*
           </span>
         )}

@@ -1,4 +1,4 @@
-import { defineConfig } from 'minista'
+import {defineConfig} from 'minista'
 import path from 'path'
 
 /**
