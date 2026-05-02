@@ -11,6 +11,8 @@ export default (props) => {
     imgSrc,
     isLiked,
   } = props
+
+  const likeButtonTitle = isLiked ? 'Dislike' : 'Like'
   return (
     <article className="recipe-card">
       <a
@@ -24,7 +26,6 @@ export default (props) => {
         <h3 className="recipe-card__title h4">{title}</h3>
         <Tags
           className="recipe-card__tags"
-          type="plain"
           items={tags}
         />
       </a>
@@ -34,7 +35,8 @@ export default (props) => {
           isLiked && 'is-liked'
           )}
           type="button"
-          area-label={isLiked ? 'Dislike' : 'Like'}
+          area-label={likeButtonTitle}
+          title={likeButtonTitle}
         >
         <Icon
           hasFill

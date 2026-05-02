@@ -37,6 +37,7 @@ export default (props) => {
         </div>
         <Tags
           className="hero-card__tags"
+          type="rounded"
           items={tags}
         />
         <footer className="hero-card__footer">

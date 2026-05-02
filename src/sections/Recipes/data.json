@@ -17,7 +17,7 @@
   },
   {
     "type": "recipe",
-    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
     "tags": [
       {
         "iconName": "clock",
@@ -25,14 +25,14 @@
       },
       {
         "iconName": "fork",
-        "label": "Chicken"
+        "label": "Fish"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/1.jpg"
+    "imgSrc": "/src/assets/images/recipes/2.jpg"
   },
   {
     "type": "recipe",
-    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "title": "Strawberry Oatmeal Pancake with Honey Syrup",
     "tags": [
       {
         "iconName": "clock",
@@ -40,14 +40,14 @@
       },
       {
         "iconName": "fork",
-        "label": "Chicken"
+        "label": "Breakfast"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/1.jpg"
+    "imgSrc": "/src/assets/images/recipes/3.jpg"
   },
   {
     "type": "recipe",
-    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "title": "Fresh and Healthy Mixed Mayonnaise Salad",
     "tags": [
       {
         "iconName": "clock",
@@ -55,14 +55,15 @@
       },
       {
         "iconName": "fork",
-        "label": "Chicken"
+        "label": "Healthy"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/1.jpg"
+    "imgSrc": "/src/assets/images/recipes/4.jpg",
+    "isLiked": true
   },
   {
     "type": "recipe",
-    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "title": "Chicken Meatballs with Cream Cheese",
     "tags": [
       {
         "iconName": "clock",
@@ -70,10 +71,10 @@
       },
       {
         "iconName": "fork",
-        "label": "Chicken"
+        "label": "Meat"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/1.jpg"
+    "imgSrc": "/src/assets/images/recipes/5.jpg"
   },
   {
     "type": "banner",
@@ -83,7 +84,7 @@
   },
   {
     "type": "recipe",
-    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "title": "Fruity Pancake with Orange & Blueberry",
     "tags": [
       {
         "iconName": "clock",
@@ -91,14 +92,14 @@
       },
       {
         "iconName": "fork",
-        "label": "Chicken"
+        "label": "Sweet"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/1.jpg"
+    "imgSrc": "/src/assets/images/recipes/6.jpg"
   },
   {
     "type": "recipe",
-    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "title": "The Best Easy One Pot Chicken and Rice",
     "tags": [
       {
         "iconName": "clock",
@@ -106,14 +107,15 @@
       },
       {
         "iconName": "fork",
-        "label": "Chicken"
+        "label": "Snack"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/1.jpg"
+    "imgSrc": "/src/assets/images/recipes/7.jpg",
+    "isLiked": true
   },
   {
     "type": "recipe",
-    "title": "Big and Juicy Wagyu Beef Cheeseburger",
+    "title": "The Creamiest Creamy Chicken and Bacon Pasta",
     "tags": [
       {
         "iconName": "clock",
@@ -121,9 +123,9 @@
       },
       {
         "iconName": "fork",
-        "label": "Chicken"
+        "label": "Noodles"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/1.jpg"
+    "imgSrc": "/src/assets/images/recipes/8.jpg"
   }
 ]

@@ -13,7 +13,7 @@ export default (props) => {
     <div
       className={clsx(
         'tags',
-        type === 'plain' && 'tags--plain',
+        type === 'rounded' && 'tags--rounded',
         className
       )}
     >

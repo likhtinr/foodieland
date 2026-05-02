@@ -1,18 +1,19 @@
 .tags {
-  --tagsItemPadding: 8px 16px;
-  --tagsItemBackgroundColor: var(--color-gray-50);
-  --tagsItemBorderRadius: var(--border-radius);
+  --tagsListGapX: 24px;
+  --tagsItemPadding: 0;
+  --tagsItemBackgroundColor: transparent;
+  --tagsItemBorderRadius: 0;
 
-
-  &--plain {
-    --tagsItemPadding: 0;
-    --tagsItemBackgroundColor: transparent;
-    --tagsItemBorderRadius: 0;
+  &--rounded {
+    --tagsListGapX: 16px;
+    --tagsItemPadding: 8px 16px;
+    --tagsItemBackgroundColor: var(--color-gray-50);
+    --tagsItemBorderRadius: var(--border-radius);
   }
   &__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 16px var(--tagsListGapX);
     margin-bottom: 20px;
     @include tablet {
       margin-bottom: 50px;
