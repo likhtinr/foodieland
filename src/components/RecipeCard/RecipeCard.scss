@@ -1,17 +1,40 @@
 .recipe-card {
+  --recipeCardPadding: 16px 16px 32px;
+  --recipeCardBgImg: var(--gradient);
+  --recipeCardImgMarginBottom: 24px;
+  --recipeCardTitleMarginBottom: 24px;
+  --recipeCardBtnLiked: 36px;
+
   position: relative;
+
+  &--transparent {
+    --recipeCardPadding: 0;
+    --recipeCardBgImg: none;
+    --recipeCardImgMarginBottom: 16px;
+    --recipeCardBtnLiked: 16px;
+  }
 
   &__link {
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
-    padding: 16px 16px 32px;
-    background-image: var(--gradient);
+    padding: var(--recipeCardPadding);
+    background-image: var(--recipeCardBgImg);
     border-radius: var(--border-radius);
   }
 
+  &__title {
+    &:not(:last-child) {
+      margin-bottom: var(--recipeCardTitleMarginBottom);
+    }
+  }
+
   &__image {
+    width: 100%;
     border-radius: calc(var(--border-radius) / 3 * 2);
+
+    &:not(:last-child) {
+      margin-bottom: var(--recipeCardImgMarginBottom);
+    }
   }
 
   &__tags {
@@ -19,12 +42,12 @@
     font-size: 14px;
   }
 
-  &__button {
+  &__like-button {
     @include flex-center(true);
 
     position: absolute;
-    top: 36px;
-    right: 36px;
+    top: var(--recipeCardBtnLiked);
+    right: var(--recipeCardBtnLiked);
     width: 48px;
     aspect-ratio: 1;
     padding: 0;
@@ -39,6 +62,14 @@
 
     &.is-liked {
       color: var(--color-accent);
+      svg {
+        filter: drop-shadow(0 5px 10px color-mix(
+          in srgb,
+          currentColor 40%,
+          transparent
+          )
+        );
+      }
     }
   }
 }

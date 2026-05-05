@@ -7,6 +7,7 @@ export default (props) => {
     className,
     id = getIdFromTitle(props.label),
     label,
+    isLabelHidden = false,
     /**
      * undefined (default) | 'email' | 'textarea'
      */
@@ -28,7 +29,7 @@ export default (props) => {
   return (
     <div className={clsx('field', className)}>
       <label
-        className="field__label"
+        className={clsx("field__label", isLabelHidden && 'visually-hidden')}
         htmlFor={id}
       >
         {label}

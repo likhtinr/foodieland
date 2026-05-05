@@ -1,53 +1,7 @@
 [
   {
     "type": "recipe",
-    "title": "Big and Juicy Wagyu Beef Cheeseburger",
-    "tags": [
-      {
-        "iconName": "clock",
-        "label": "30 Minutes"
-      },
-      {
-        "iconName": "fork",
-        "label": "Chicken"
-      }
-    ],
-    "imgSrc": "/src/assets/images/recipes/1.jpg",
-    "isLiked": true
-  },
-  {
-    "type": "recipe",
-    "title": "Fresh Lime Roasted Salmon with Ginger Sauce",
-    "tags": [
-      {
-        "iconName": "clock",
-        "label": "30 Minutes"
-      },
-      {
-        "iconName": "fork",
-        "label": "Fish"
-      }
-    ],
-    "imgSrc": "/src/assets/images/recipes/2.jpg"
-  },
-  {
-    "type": "recipe",
-    "title": "Strawberry Oatmeal Pancake with Honey Syrup",
-    "tags": [
-      {
-        "iconName": "clock",
-        "label": "30 Minutes"
-      },
-      {
-        "iconName": "fork",
-        "label": "Breakfast"
-      }
-    ],
-    "imgSrc": "/src/assets/images/recipes/3.jpg"
-  },
-  {
-    "type": "recipe",
-    "title": "Fresh and Healthy Mixed Mayonnaise Salad",
+    "title": "Mixed Tropical Fruit Salad with Superfood Boosts",
     "tags": [
       {
         "iconName": "clock",
@@ -58,12 +12,12 @@
         "label": "Healthy"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/4.jpg",
+    "imgSrc": "/src/assets/images/dailyRecipes/1.jpg",
     "isLiked": true
   },
   {
     "type": "recipe",
-    "title": "Chicken Meatballs with Cream Cheese",
+    "title": "Big and Juicy Wagyu Beef Cheeseburger",
     "tags": [
       {
         "iconName": "clock",
@@ -71,20 +25,14 @@
       },
       {
         "iconName": "fork",
-        "label": "Meat"
+        "label": "Western"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/5.jpg"
-  },
-  {
-    "type": "banner",
-    "titleImgSrc": "Don’t forget to eat healthy food",
-    "site": "www.foodieland.com",
-    "bgImgSrc": "/src/assets/images/recipes/0.jpg"
+    "imgSrc": "/src/assets/images/dailyRecipes/2.jpg"
   },
   {
     "type": "recipe",
-    "title": "Fruity Pancake with Orange & Blueberry",
+    "title": "Healthy Japanese Fried Rice with Asparagus",
     "tags": [
       {
         "iconName": "clock",
@@ -92,14 +40,45 @@
       },
       {
         "iconName": "fork",
-        "label": "Sweet"
+        "label": "Healthy"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/6.jpg"
+    "imgSrc": "/src/assets/images/dailyRecipes/3.jpg"
   },
   {
     "type": "recipe",
-    "title": "The Best Easy One Pot Chicken and Rice",
+    "title": "Cauliflower Walnut Vegetarian Taco Meat",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 Minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Eastern"
+      }
+    ],
+    "imgSrc": "/src/assets/images/dailyRecipes/4.jpg",
+    "isLiked": true
+  },
+  {
+    "type": "recipe",
+    "title": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 Minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Healthy"
+      }
+    ],
+    "imgSrc": "/src/assets/images/dailyRecipes/5.jpg"
+  },
+  {
+    "type": "recipe",
+    "title": "Barbeque Spicy Sandwiches with Chips",
     "tags": [
       {
         "iconName": "clock",
@@ -110,12 +89,11 @@
         "label": "Snack"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/7.jpg",
-    "isLiked": true
+    "imgSrc": "/src/assets/images/dailyRecipes/6.jpg"
   },
   {
     "type": "recipe",
-    "title": "The Creamiest Creamy Chicken and Bacon Pasta",
+    "title": "Firecracker Vegan Lettuce Wraps - Spicy!",
     "tags": [
       {
         "iconName": "clock",
@@ -123,9 +101,25 @@
       },
       {
         "iconName": "fork",
-        "label": "Noodles"
+        "label": "Seafood"
       }
     ],
-    "imgSrc": "/src/assets/images/recipes/8.jpg"
+    "imgSrc": "/src/assets/images/dailyRecipes/7.jpg",
+    "isLiked": true
+  },
+  {
+    "type": "recipe",
+    "title": "Chicken Ramen Soup with Mushroom",
+    "tags": [
+      {
+        "iconName": "clock",
+        "label": "30 Minutes"
+      },
+      {
+        "iconName": "fork",
+        "label": "Japanese"
+      }
+    ],
+    "imgSrc": "/src/assets/images/dailyRecipes/8.jpg"
   }
 ]

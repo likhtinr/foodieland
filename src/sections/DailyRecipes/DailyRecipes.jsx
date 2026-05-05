@@ -2,31 +2,20 @@ import Section from '../../layouts/Section/index.js'
 import Grid from '@/components/Grid/index.js'
 import RecipeCard from '../../components/RecipeCard/index.js'
 import items from './data.json'
-import RecipeBanner from '@/components/RecipeBanner/index.js'
 
 export default () => {
   return (
     <Section
-      title="Simple and tasty recipes"
-      titleId="recipes"
-      isHeaderVertical
+      title="Try this delicious recipe to make your day"
+      titleId="daily-recipes"
       description="Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim "
     >
-      <Grid columns={3}>
+      <Grid columns={4}>
         {items.map((item) => {
           const { type, ...rest } = item
 
-          if (type === 'banner') {
-            return (
-              <RecipeBanner
-                {...rest}
-                key={item.title}
-              />
-            )
-        }
-
           return (
-          <RecipeCard {...rest} key={item.title}/>
+          <RecipeCard mode="transparent" titleExtraClassName="h6" {...rest} key={item.title}/>
           )
         })}
       </Grid>

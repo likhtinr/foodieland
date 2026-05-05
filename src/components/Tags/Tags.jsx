@@ -5,9 +5,13 @@ import clsx from 'clsx'
 export default (props) => {
   const {
     className,
-    items,
+    items = [],
     type = ''
   } = props
+
+  if(items.length === 0) {
+    return null
+  }
 
   return (
     <div

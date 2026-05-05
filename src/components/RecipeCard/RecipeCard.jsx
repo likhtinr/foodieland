@@ -7,14 +7,20 @@ import Icon from '../Icon/index.js'
 export default (props) => {
   const {
     title,
-    tags,
+    titleExtraClassName = 'h4',
+    mode = "",
+    tags = [],
     imgSrc,
     isLiked,
   } = props
 
   const likeButtonTitle = isLiked ? 'Dislike' : 'Like'
   return (
-    <article className="recipe-card">
+    <article
+      className={clsx("recipe-card",
+        mode && `recipe-card--${mode}`
+        )}
+    >
       <a
         href="/"
         className="recipe-card__link"
@@ -23,7 +29,7 @@ export default (props) => {
           className="recipe-card__image"
           src={imgSrc}
         />
-        <h3 className="recipe-card__title h4">{title}</h3>
+        <h3 className={clsx('recipe-card__title', titleExtraClassName)}>{title}</h3>
         <Tags
           className="recipe-card__tags"
           items={tags}
@@ -31,7 +37,7 @@ export default (props) => {
       </a>
       <button
         className={clsx(
-          'recipe-card__button',
+          'recipe-card__like-button',
           isLiked && 'is-liked'
           )}
           type="button"
